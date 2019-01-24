@@ -1,0 +1,24 @@
+{
+  "name": "circularinsertionsort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeacademy2019-gurrehmat-oberoi/circularInsertionSort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeacademy2019-gurrehmat-oberoi/circularInsertionSort/issues"
+  },
+  "homepage": "https://github.com/codeacademy2019-gurrehmat-oberoi/circularInsertionSort#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
