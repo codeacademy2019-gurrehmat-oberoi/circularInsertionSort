@@ -11,3 +11,12 @@ describe('parseInput', () => {
     expect(() => circularInsertion.parseInput('7 3 0 9')).toThrowError(/Insufficient/);
   });
 });
+
+describe('circularInsertion', () => {
+  it('should sort array which is already sorted', () => {
+    expect(circularInsertion.main('6 13 16 24 39 51 80')).toEqual([13, 16, 24, 39, 51, 80]);
+  });
+  it('should sort reverse sorted array', () => {
+    expect(circularInsertion.main('6 80 51 39 24 16 13')).toEqual([80, 13, 16, 24, 39, 51]);
+  });
+});
